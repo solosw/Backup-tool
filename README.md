@@ -4,4 +4,6 @@
 - Maven
 - springboot
 ## 配置
-修改application文件中的邮箱地址和效验码，修改文件输入输出目录。
+- java18
+- 修改application.yml文件中的mail配置，修改fromfile和tofile,使用绝对路径。
+- 文件夹内不能有文件夹，大小不超过200mb。
