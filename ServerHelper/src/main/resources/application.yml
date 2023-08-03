@@ -1,0 +1,24 @@
+maxSize: 1024000
+fromFilePath: "C:/Users/solosw/Desktop/test"
+toFilePath: "C:/Users/solosw/Desktop/test.zip"
+server:
+  port: 8085
+mail:
+      username: 1595704581@qq.com
+      password: igehqmgmvyhqhcjc
+      host: smtp.qq.com
+      properties:
+        mail:
+          smtp:
+            auth: true
+            ssl:
+              enable: true
+            starttls:
+              enable: true
+              required: true
+      port: 465
+      servlet:
+      multipart:
+        enabled: true
+        max-file-size : 100MB
+        max-request-size : 100MB
